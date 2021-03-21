@@ -1,0 +1,9 @@
+bucket_name                = "odd-lambda-edge"
+execution_role_name        = "odd-lambda-edge-role"
+execution_role_policy_name = "odd-lambda-edge-role-policy"
+function_name              = "odd"
+function_description       = "ODD lambda edge example"
+filename                   = "../function/dist/function.zip"
+handler                    = "index.handler"
+runtime                    = "nodejs12.x"
+timeout                    = 3

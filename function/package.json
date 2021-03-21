@@ -1,0 +1,16 @@
+{
+  "name": "odd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "zip -r function.zip .",
+    "postbuild": "mkdir dist && mv function.zip dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/target-nodejs-sdk": "^2.1.1"
+  }
+}
