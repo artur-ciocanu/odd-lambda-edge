@@ -6,6 +6,7 @@ There are a few resources that we need to be able expose AWS Lambda as HTTP endp
 - AWS Lambda function
 - AWS S3 bucket
 - AWS Cloudfront distribution
+
 Every resource has it's own details, so please check the `main.tf` file for details. The `Teerraform` variable values can be found in `dev.tfvars`. Feel free to change the values to whatever you want when running the code.
 
 To be able to run `Terraform` we need AWS credentials please refer to official `Terraform` docs that can be found [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) on how to configure the AWS credentials. Once everything is setup you could the following commands to provision your infrastructure:
